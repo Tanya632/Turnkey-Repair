@@ -1,0 +1,158 @@
+/* yeseva-one-regular - latin */
+@font-face {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/yeseva-one-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/yeseva-one-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* nunito-sans-regular - latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/nunito-sans-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/nunito-sans-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html { 
+  box-sizing: border-box;
+} 
+  *, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+body {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #E3B873;
+    
+}
+  
+.img {
+   max-width: 100%;
+   height: auto;
+}
+  
+.wrapper {
+  max-width: 1147px;
+  margin: 0 auto;
+        
+}
+  
+a {
+  cursor: pointer;
+}
+
+
+/*header style start */
+
+
+.header {
+  background-color: #131313;
+ 
+  
+}
+
+.header__wrapper {
+  max-width: 916;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 37px 0;
+  
+
+}
+
+.header__logo__link {
+  color: #E3B873;
+  text-decoration: none;
+}
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.header__item {
+  margin-right: 47px;
+
+}
+
+.header__link {
+  font-size: 11px;
+  left: 15px;
+  color: #FFF;
+  text-decoration: none;
+
+} .namber {
+  color: #E3B873;
+  border-bottom: #E3B873;
+} 
+.header__link:hover, .header__link:focus, .header__link:active {
+  opacity: .75;
+}
+
+.button__tap {
+  padding: 11px 33px;
+  background-color: #E3B873;
+  color: #FFF
+ 
+}
+
+
+ 
+
+
+ /* 
+    
+}
+
+.header__logo-link {
+  font-family: 'Nunito Sans';
+  font-size: 11px;
+  line-height: 15px;
+  color: #E3B873;
+  text-decoration: none;
+  margin-right: 95px;
+    
+
+}/*
+
+.header__item {
+  margin-right: 47px;
+    
+}
+
+.header__item-contact {
+  margin-left: 67px;
+}
+
+.header__link-namber {
+  color: #E3B873;
+
+}
+
+.header__link {
+    color: #FFFFFF;
+    font-size: 11px;
+    line-height: 15px; 
+    text-decoration: none;
+    font-family: 'Nunito Sans';
+}
+
+.button__tap {
+  padding: 13px 33px;
+}
+
+
+
