@@ -57,12 +57,12 @@ a {
 
 .header {
   background-color: #131313;
- 
-  
+   
 }
 
+
 .header__wrapper {
-  max-width: 916;
+  max-width: 1438px;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
@@ -70,6 +70,14 @@ a {
   padding: 37px 0;
   
 
+}
+
+.header__logo {
+  margin-block: auto;
+}
+
+.header__nav {
+  margin-block: auto;
 }
 
 .header__logo__link {
@@ -105,12 +113,93 @@ a {
 .button__tap {
   padding: 11px 33px;
   background-color: #E3B873;
-  color: #FFF
+  color: #FFF;
+  cursor: pointer;
  
 }
 
+.button__tap:hover, .button__tap:focus, .button__tap:active {
+  opacity: .75;
+}
+/*don*/
+
+
+.don {
+  height: 707px;
+  width: auto;
+  background: url(../img/hero.png) rgba(0, 0, 0, 0.7) no-repeat;
+  background-size: cover;
+  color: #FFF;
+  background-blend-mode: multiply;
+  margin-bottom: 22px;
+
+
+}
+.conteiner {
+  padding-top: 190px;
+}
+
+
+
+
+
+.don__title {
+  max-width: 576px;
+  font-size: 40px;
+  Line-height: 54px;
+  font-family: 'Yeseva One';
+  margin-bottom: 19px;
+
 
  
+}
+ .don__subtitle {
+  max-width: 510px;
+  font-size: 22px;
+  Line-height: 36px;
+  font-family: 'Nunito Sans';
+
+ }
+ /*button*/
+
+.form__wrap {
+  margin-top: 41px;
+  
+}
+
+.button__tap-1 {
+  padding: 19px 42px;
+  background-color: #E3B873;
+  color: #FFF;
+  cursor: pointer;
+  border-radius: 2px;
+  border: none;
+  margin-right: 20px;
+  font-family: 'Nunito Sans';
+  font-size: 11px;
+  line-height: 15px;
+
+} 
+
+
+.button__tap-2 {
+  padding: 17px 21px;
+  color: #FFF;
+  cursor: pointer;
+  background: none;
+  border-radius: 2px;
+  border-color: rgb(89, 89, 89);
+  font-family: 'Nunito Sans';
+  font-size: 11px;
+  line-height: 15px;
+}
+ 
+
+ 
+
+
+
+
 
 
  /* 
