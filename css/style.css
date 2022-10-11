@@ -97,6 +97,8 @@ a {
 }
 
 .header__link {
+  font-family: 'Nunito Sans';
+  line-height: 15px;
   font-size: 11px;
   left: 15px;
   color: #FFF;
@@ -121,7 +123,7 @@ a {
 .button__tap:hover, .button__tap:focus, .button__tap:active {
   opacity: .75;
 }
-/*don*/
+/*conteiner 1 */
 
 
 .don {
@@ -131,16 +133,11 @@ a {
   background-size: cover;
   color: #FFF;
   background-blend-mode: multiply;
-  margin-bottom: 22px;
-
-
+  
 }
 .conteiner {
   padding-top: 190px;
 }
-
-
-
 
 
 .don__title {
@@ -193,6 +190,170 @@ a {
   font-size: 11px;
   line-height: 15px;
 }
+
+/*conteiner2*/
+  
+.wrapper__completed {
+  height: 1074px;
+  max-width: 1440px;
+  background-color: black;
+  
+
+}
+
+.completed {
+  max-width: 1438px;
+  background-color: rgb(243, 234, 234);
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+
+}
+
+.head__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+ 
+}
+.head__nav {
+  padding-top: 107px;
+}
+
+.head__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: end;
+  padding-bottom: 107px; 
+}
+
+.head__item {
+  margin-right: 43px;
+}
+
+
+.head__link {
+  font-family: 'Yeseva One';
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #FFF;
+  
+}
+
+
+
+.color {
+  color:#E3B873
+
+}
+/*completed*/
+
+
+.wrap__completed {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  background-color: #000000fd;
+  height: 416px;
+  margin-top: -50px;
+  
+ 
+}
+
+.completed__title {
+  font-family: 'Yeseva One';
+  font-size: 26px;
+  line-height: 38px;
+  color: #E3B873;
+  max-width: 253px;
+  font-style: Regular;
+  
+}
+
+.completed__subtitle {
+  font-family: 'Nunito Sans';
+  font-size: 13px;
+  line-height: 27px;
+  color: #FFF;
+  max-width: 442px;
+  margin-top: 50px;
+ 
+}
+
+.completed__right {
+  background: url(../img/image2.png);
+
+}
+
+.wrap__des {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 42px;
+  grid-column-gap: 60px;
+}
+
+.size__namber {
+  font-family: 'Yeseva One';
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 9px;
+
+}
+
+.text-sm {
+  font-family: 'Yeseva One';
+  font-size: 12px;
+  line-height: 21px;
+  margin-bottom: 34px;
+  color: #FFF;
+
+
+}
+/*control*/
+
+.control__wrap {
+  margin-top: 100px;
+  width: 1171px;
+}
+
+.control-sm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Yeseva One';
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFF;
+  
+  
+}
+
+.control__line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.line__cam {
+  margin: 12px 7px;
+}
+
+ 
+
+
+
+
+
+
+ 
+
+ 
+  
+
+
  
 
  
