@@ -194,10 +194,10 @@ a {
 /*conteiner2*/
   
 .wrapper__completed {
+  position: relative;
   height: 1074px;
   max-width: 1440px;
   background-color: black;
-  
 
 }
 
@@ -260,6 +260,8 @@ a {
   height: 416px;
   margin-top: -50px;
   
+
+  
  
 }
 
@@ -317,6 +319,7 @@ a {
 .control__wrap {
   margin-top: 100px;
   width: 1171px;
+
 }
 
 .control-sm {
@@ -341,9 +344,39 @@ a {
   margin: 12px 7px;
 }
 
- 
+.white__video {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 230px;
+  
+
+}  
+
+.video {
+  background: url(../img/video.png) no-repeat;
+  position: absolute;
+  margin-left: 20%;
+  height: auto;
 
 
+}
+
+.play {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 47%;
+  margin-top: 200px;
+  background-color: #E3B873;
+  border-radius: 50%;
+
+}
+.play__tap {
+  padding: 26px 26px 26px 30px;
+  
+}
+
+/* text*/
 
 
 
