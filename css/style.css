@@ -20,8 +20,6 @@
 
 html { 
   box-sizing: border-box;
-  max-width: 100%;
-  overflow-x: hidden;
 } 
   *, *::before, *::after {
     box-sizing: inherit;
@@ -45,7 +43,7 @@ body {
 }
   
 .wrapper {
-  width: 1236px;
+  max-width: 1236px;
   margin: 0 auto;
   padding: 0 15px;
         
@@ -200,7 +198,7 @@ a {
 
 .form__wrap {
   margin-top: 41px;
-
+  padding: 0 15px;
   
 }
 
@@ -296,6 +294,7 @@ width: 100%;
   background-color: #000000fd;
   height: 416px;
   margin-top: -50px;
+  padding: 0 15px;
   
 }
 
@@ -352,6 +351,7 @@ width: 100%;
 
 .control__wrap {
   margin-top: 100px;
+  width: 1171px;
   color: #FFF;
   padding: 0 15px;
 
@@ -402,7 +402,6 @@ width: 100%;
   left: 50%;
   transform: translate(-50%);
   height: auto;
-  width: 100%;
 
 
 }
@@ -571,7 +570,7 @@ width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 30px;
-  width: 1238px;
+  max-width: 1236px;
   padding: 0 15px;
   
 
@@ -645,7 +644,7 @@ width: 100%;
 
 .special__cont {
   display: grid;
-  grid-template-columns: 45% 55%;
+  grid-template-columns: 45% 50%;
   max-height: 100vh;
   margin-bottom: 322px;
 
@@ -1119,10 +1118,10 @@ width: 100%;
 }
 
 .foncart-wr {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 270px;
-  justify-content: center;
+display: flex;
+flex-wrap: wrap;
+padding-top: 270px;
+justify-content: center;
 }
 
 
@@ -1155,7 +1154,7 @@ width: 100%;
   background: #131313;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:780px){
 
 .wrapper {
   width: 100%;
@@ -1264,9 +1263,8 @@ width: 100%;
 }
 
 .video {
-  width: 100%;
+  width: 108%;
   padding-top: 0;
-  margin-left:  15px;
  
 }
 
@@ -1304,7 +1302,6 @@ margin: 0;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 10px;
-  width: 100%;
 }
 
 .froms {
@@ -1376,9 +1373,6 @@ margin: 0;
 
 .footer {
   display: none;
-}
-.control-sm .namber {
-  color: #E3B873;
 }
 
 
