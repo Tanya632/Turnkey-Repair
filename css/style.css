@@ -1248,7 +1248,6 @@ justify-content: center;
 }
 .white {
   margin-bottom: 250px;
-  background: #131313;
   right: 3px;
 }
 
@@ -1258,7 +1257,7 @@ justify-content: center;
 }
 
 .video {
-  width: 108%;
+  width: 100%;
   padding-top: 0;
  
 }
