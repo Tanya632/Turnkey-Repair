@@ -20,6 +20,8 @@
 
 html { 
   box-sizing: border-box;
+  max-width: 100%;
+  overflow-x: hidden;
 } 
   *, *::before, *::after {
     box-sizing: inherit;
@@ -350,7 +352,6 @@ width: 100%;
 
 .control__wrap {
   margin-top: 100px;
-  width: 1171px;
   color: #FFF;
   padding: 0 15px;
 
@@ -401,6 +402,7 @@ width: 100%;
   left: 50%;
   transform: translate(-50%);
   height: auto;
+  width: 100%;
 
 
 }
